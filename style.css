@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Schibsted+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap');
+
+
+@font-face {
+    font-family: 'saqueroregular';
+    src: url('Saquero-Font/saquero-webfont.woff2') format('woff2'),
+         url('Saquero-Font/saquero-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gerbilregular';
+    src: url('OpenType-PS/gerbil-webfont.woff2') format('woff2'),
+         url('OpenType-PS/gerbil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+body{
+    margin: 0;
+    /* background-color: rgb(0, 137, 242); */
+}
+
+h1{
+    font-family: 'saqueroregular', serif;
+    font-size: 5em;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* navbar */
+.item{
+    text-align: center;
+    list-style: none;
+    color: #27374D;
+    margin: 0 20px;
+}
+
+.navbar-ul{
+    margin: 0;
+    background-color: #9DB2BF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navbar-li{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 20px;
+    color: #27374D;
+}
+
+/* navbar  */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* home */
+
+.intro{
+    margin: 0;
+    height: 91vh;
+    background-color: #9DB2BF;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    color: #27374D;
+}
+
+.intro h1{
+    margin-bottom: 0;
+}
+
+.intro p{
+    /* padding-top: 200px; */
+    font-family: 'gerbilregular';
+    font-size: 1.5em;
+
+}
+
+.planeImg{
+    position: absolute;
+    top: 250px;
+    left: 90px;
+}
+
+.planeImg img{
+    width: 500px;
+    /* left: 10px;
+    bottom: 100px; */
+}
+
+.introContent{
+    color: black;
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    text-align: initial;
+    border-radius: 50px;
+    position: absolute;
+    top: 320px;
+    right: 100px;
+}
+
+.introContent p{
+    font-family: 'gerbilregular';
+    padding: 0 50px;
+    font-size: 1.5em;
+}
+
+.cloud{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.cloud img{
+    width: 500px;
+}
+
+/* home */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* About */
+
+.about{
+    padding-top: 10px;
+    height: 95vh;
+    background-color: #A0C49D;
+    position: relative;
+    text-align: center;
+    
+}
+
+.aboutP{
+    
+    font-family: 'saqueroregular';
+    font-size: 2.5em;
+}
+
+.aboutContent{
+ border-radius: 50px;
+ position: absolute;
+ text-align:justify;
+ background-color: white;
+ height: 300px;
+ width: 60%;
+ top: 150px;
+ left: 20px;
+}
+
+.aboutContent p{
+    padding: 20px 30px;
+    font-family: 'gerbilregular';
+    font-size: 1.25em;
+}
+
+.aboutImg {
+    position: absolute;
+    right: 150px;
+    top: 65px;
+}
+
+
+/* About */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* Projects */
+
+.projects{
+    /* margin-top: 70px; */
+    text-align: center;
+    font-family: 'saqueroregular';
+    font-size: 1.5em;
+    padding-top: 10px;
+    background-color: #FF8551;
+    height: 225vh;
+    position:relative;
+}
+
+.pro1-content{
+    background-color: white;
+    border-radius: 25px;
+    height: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 12%;
+    
+}
+
+
+.pro1{
+
+margin: 3%;
+margin-top: 8%;
+display: flex;
+flex-direction: row;
+}
+
+.pro1Ico{
+margin-left: 20px;
+}
+
+
+
+.pro2-content{
+    background-color: white;
+    border-radius: 25px;
+    height: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 18%;
+    margin-right: 2%;
+}
+
+
+.pro2{
+margin: 3%;
+margin-top: 15%;
+display: flex;
+flex-direction: row;
+}
+/* Projects */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+/* Skills */
+
+.skills{
+    background-color: #ECF2FF;
+    font-family:'saqueroregular';
+    font-size: 1.5em;
+    padding-top: 2%;
+    height: 90vh;
+    text-align: center;
+    position:relative;
+}
+
+.skill-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.skillContent{
+    margin: 20px 5%;
+}
+
+
+/* Skills */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Contact */
+
+.contact{
+    background-color: #FFF9DE;
+    font-family:'saqueroregular';
+    font-size: 1.5em;
+    padding-top: 1%;
+    height: 35vh;
+    text-align: center;
+    position:relative;
+}
+
+.contact-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: flex-end;
+}
+
+.contactIcon{
+    
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contactBase{
+    font-family: sans-serif;
+    font-size: 0.5em;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+/* Contact */
+
+.highlight{
+    background-color: #A0C49D;
+}
